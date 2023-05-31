@@ -1,6 +1,6 @@
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
-import Projects from "@/components/Projects";
+import ProjectsSection from "@/components/ProjectsSection";
 
 /*
   https://www.npmjs.com/
@@ -19,7 +19,8 @@ import Projects from "@/components/Projects";
 
 YOUTUBE: https://youtu.be/7gnVzj_nMJw?t=1409
 GITHUB REPO: https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio/blob/final/components/Navbar.tsx
-CSS: https://nerdcave.com/tailwind-cheat-sheet
+TW CSS: https://nerdcave.com/tailwind-cheat-sheet
+CHEAT SHEET: https://roadmap.sh/
 
 */
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
     <main className="mx-auto max-w-3xl px-4 sm:px-6 md:max-w-5xl">
       <HeroSection />
       <AboutSection />
-      <Projects />
+      <ProjectsSection />
     </main>
   );
 }

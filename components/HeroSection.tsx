@@ -33,22 +33,22 @@ const HeroSection = () => {
           <Row className="align-items-center">
             <Col xs={12} md={6} xl={7}>
               <span
-                className="mb-4 font-bold tracking-wider text-xl inline-block from-black to-gray-700 border px-2 py-2 border-yellow-300"
+                className="mb-4 font-bold tracking-wider text-2xl inline-block from-black to-gray-700 border px-4 py-2 border-pink-500"
                 style={{ userSelect: "none" }}
               >
                 Welcome to my Portfolio
               </span>
-              <h2 className="text-3xl">
+              <h2 className="text-5xl">
                 Designing websites / apps for companies
               </h2>
-              <h2 className="text-3xl">
-                <span ref={el} />
+              <h2 className="py-4 text-4xl">
+                <span className="text-yellow-500" ref={el} />
               </h2>
               <br></br>
-              <p className="text-xl">
-                My name is Marius, an IT-Developer based in Tønsberg, Norway.
+              <p className="text-3xl">
+                My name is Marius, an IT-Developer based in Norway. <br></br>
                 Currently looking for work/internship.
-              </p>{" "}
+              </p>
             </Col>
           </Row>
         </Container>
@@ -76,7 +76,7 @@ const HeroSection = () => {
         >
           <HiArrowDown
             size={35}
-            className="animate-bounce cursor-pointer hover:text-green-300"
+            className="animate-bounce cursor-pointer text-green-300"
           />
         </Link>
       </div>

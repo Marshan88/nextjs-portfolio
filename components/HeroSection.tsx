@@ -23,15 +23,11 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section
-      id="home"
-      className="h-screen"
-      // className="h-screen px-3.5 bg-[url('/BG.jpg')] bg-top-center bg-no-repeat bg-fixed bg-auto bg-black overflow-hidden"
-    >
-      <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+    <section id="home" className="h-screen">
+      <div className="flex flex-col text-center items-center justify-center py-16 sm:py-32 sm:my-10 md:py-40 md:flex-row md:space-x-4 md:text-left">
         <Container>
           <Row className="align-items-center">
-            <Col xs={12} md={6} xl={7}>
+            <Col>
               <span
                 className="mb-4 font-bold tracking-wider text-2xl inline-block from-black to-gray-700 border px-4 py-2 border-pink-500"
                 style={{ userSelect: "none" }}
@@ -42,44 +38,96 @@ const HeroSection = () => {
                 Designing websites / apps for companies
               </h2>
               <h2 className="py-4 text-4xl">
-                <span className="text-yellow-500" ref={el} />
+                <span className="text-yellow-500 inline-block" ref={el} />
               </h2>
               <br></br>
               <p className="text-3xl">
-                My name is Marius, an IT-Developer based in Norway. <br></br>
+                My name is Marius,<br></br>IT-Developer based in Norway.{" "}
+                <br></br>
                 Currently looking for work/internship.
               </p>
             </Col>
           </Row>
         </Container>
         <Col>
-          <div className="float-right">
-            <Image
-              className="contrast-200 brightness-200"
-              src="/logo.png"
-              alt=""
-              width={600}
-              height={600}
-              style={{ userSelect: "none" }}
-            />
-          </div>
+          <Image
+            className="object-contain hidden md:block"
+            src="/logo.png"
+            alt=""
+            width={600}
+            height={600}
+            style={{ userSelect: "none" }}
+          />
         </Col>
       </div>
-      <div className="flex flex-row items-center text-center justify-center">
-        <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-        >
-          <HiArrowDown
-            size={35}
-            className="animate-bounce cursor-pointer text-green-300"
+      <div className="justify-center flex object-contain ">
+        <a href="mailto:mariush@getacademy.no">
+          <Image
+            src={"email2.svg"}
+            width={100}
+            height={100}
+            className=""
+            alt="email"
+            style={{ userSelect: "none" }}
           />
-        </Link>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/marius-henriksen/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={"linkedin.svg"}
+            width={100}
+            height={100}
+            className=""
+            alt="linkedin"
+            style={{ userSelect: "none" }}
+          />
+        </a>
+        <a
+          href="https://github.com/Marshan88"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={"githubIcon.svg"}
+            width={100}
+            height={100}
+            className=""
+            alt="github"
+            style={{ userSelect: "none" }}
+          />
+        </a>
+        <a
+          href="https://www.buymeacoffee.com/mariushenrix"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={"coffee.svg"}
+            width={100}
+            height={100}
+            className="revert-img-color"
+            alt="buymeacoffe"
+            style={{ userSelect: "none" }}
+          />
+        </a>
       </div>
+      <Link
+        to="about"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-100}
+        duration={500}
+        className="flex flex-row items-center text-center justify-center"
+      >
+        <HiArrowDown
+          size={35}
+          className="animate-bounce cursor-pointer text-green-300"
+        />
+      </Link>
     </section>
   );
 };

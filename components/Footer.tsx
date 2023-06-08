@@ -1,10 +1,13 @@
 "use client";
-import react from "react";
 
 const Footer = () => {
   return (
     <main>
-      <h1>Footer</h1>
+      <div>
+        <p className="text-center float-right">
+          {/* Copyright 2023 © All Rights Reserved */}
+        </p>
+      </div>
     </main>
   );
 };

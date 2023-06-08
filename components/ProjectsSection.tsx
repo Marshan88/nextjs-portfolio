@@ -4,42 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 import { Tilt } from "react-tilt";
-
-const defaultOptions = {
-  reverse: true, // reverse the tilt direction
-  max: 14, // max tilt rotation (degrees)
-  perspective: 2000, // Transform perspective, the lower the more extreme the tilt gets.
-  scale: 1, // 2 = 200%, 1.5 = 150%, etc..
-  speed: 450, // Speed of the enter/exit transition
-  transition: true, // Set a transition on enter/exit.
-  axis: null, // What axis should be disabled. Can be X or Y.
-  reset: true, // If the tilt effect has to be reset on exit.
-  easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
-};
-
-const projects = [
-  {
-    name: "Portfolio 1.0",
-    description: "Made with HTML, CSS and JS.",
-    image: "/javascript.png",
-    github: "https://marshan88.github.io/MyPortfolio/",
-    link: "https://marshan88.github.io/MyPortfolio/",
-  },
-  {
-    name: "Portfolio 2.0",
-    description: "Made with React.",
-    image: "/reactjs.jpg",
-    github: "https://github.com/Marshan88/personal-portfolio",
-    link: "https://marshan.me/",
-  },
-  {
-    name: "Current portfolio",
-    description: "Made with Next.js, React, Typescript and Tailwind CSS.",
-    image: "/nextjs.png",
-    github: "https://github.com/Marshan88/personal-portfolio",
-    link: "https://github.com/Marshan88/personal-portfolio",
-  },
-];
+import { projects, cardTiltValues } from "../data";
 
 const ProjectsSection = () => {
   return (
@@ -60,7 +25,7 @@ const ProjectsSection = () => {
                     rel="noopener noreferrer"
                     href={project.link}
                   >
-                    <Tilt options={defaultOptions}>
+                    <Tilt options={cardTiltValues}>
                       <Image
                         src={project.image}
                         alt=""

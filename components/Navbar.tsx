@@ -7,6 +7,7 @@ import { useTheme } from "next-themes";
 import { RiMoonFill, RiSunLine } from "react-icons/ri";
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 import { NAV_ITEMS } from "../data";
+import Image from "next/image";
 
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -42,21 +43,26 @@ export default function Navbar() {
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               {NAV_ITEMS.map((item, idx) => {
                 return (
-                  <Link
-                    key={idx}
-                    to={item.page}
-                    className={
-                      "cursor-pointer block lg:inline-block text-neutral-900  hover:text-green-300 dark:text-neutral-100"
-                    }
-                    activeClass="active"
-                    spy={true}
-                    smooth={true}
-                    offset={-100}
-                    duration={500}
-                    onClick={() => setNavbar(!navbar)}
-                  >
-                    {item.label}
-                  </Link>
+                  <>
+                    <div>
+                      
+                    </div>
+                    <Link
+                      key={idx}
+                      to={item.page}
+                      className={
+                        "cursor-pointer block lg:inline-block text-neutral-900  hover:text-green-300 dark:text-neutral-100"
+                      }
+                      activeClass="active"
+                      spy={true}
+                      smooth={true}
+                      offset={-100}
+                      duration={500}
+                      onClick={() => setNavbar(!navbar)}
+                    >
+                      {item.label}
+                    </Link>
+                  </>
                 );
               })}
               {currentTheme === "dark" ? (

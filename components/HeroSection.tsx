@@ -60,60 +60,6 @@ const HeroSection = () => {
           />
         </Col>
       </div>
-      <div className="justify-center flex object-contain ">
-        <a href="mailto:mariush@getacademy.no">
-          <Image
-            src={"email2.svg"}
-            width={100}
-            height={100}
-            className=""
-            alt="email"
-            style={{ userSelect: "none" }}
-          />
-        </a>
-        <a
-          href="https://www.linkedin.com/in/marius-henriksen/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={"linkedin.svg"}
-            width={100}
-            height={100}
-            className=""
-            alt="linkedin"
-            style={{ userSelect: "none" }}
-          />
-        </a>
-        <a
-          href="https://github.com/Marshan88"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={"githubIcon.svg"}
-            width={100}
-            height={100}
-            className=""
-            alt="github"
-            style={{ userSelect: "none" }}
-          />
-        </a>
-        <a
-          href="https://www.buymeacoffee.com/mariushenrix"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src={"coffee.svg"}
-            width={100}
-            height={100}
-            className="revert-img-color"
-            alt="buymeacoffe"
-            style={{ userSelect: "none" }}
-          />
-        </a>
-      </div>
       <Link
         to="about"
         activeClass="active"

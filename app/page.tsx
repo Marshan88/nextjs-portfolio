@@ -17,10 +17,13 @@ import ProjectsSection from "@/components/ProjectsSection";
 - postcss --save-dev
 - tailwindcss --save-dev
 
-YOUTUBE: https://youtu.be/7gnVzj_nMJw?t=1409
-GITHUB REPO: https://github.com/hqasmei/tailwindcss-and-nextjs-portfolio/blob/final/components/Navbar.tsx
-TW CSS: https://nerdcave.com/tailwind-cheat-sheet
-CHEAT SHEET: https://roadmap.sh/
+CHEAT SHEETS and TOOLS:
+- TW CSS: https://nerdcave.com/tailwind-cheat-sheet
+- https://pomofocus.io/
+- https://goblin.tools/
+- https://roadmap.sh/
+- https://www.w3schools.com/default.asp
+- https://stackblitz.com/
 
 */
 export default function Home() {

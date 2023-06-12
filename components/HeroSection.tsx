@@ -23,7 +23,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section id="home">
+    <section id="home" className="h-screen">
       <div className="flex flex-col text-center items-center justify-center py-16 sm:py-32 sm:my-10 md:py-40 md:flex-row md:space-x-4 md:text-left">
         <div className="align-items-center">
           <span

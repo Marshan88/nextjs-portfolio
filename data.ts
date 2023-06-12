@@ -122,6 +122,7 @@ export const socials = [
     image: "/email2.svg",
   },
 ];
+
 export const cardTiltValues = {
   reverse: true, // reverse the tilt direction
   max: 14, // max tilt rotation (degrees)
@@ -133,3 +134,28 @@ export const cardTiltValues = {
   reset: true, // If the tilt effect has to be reset on exit.
   easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
 };
+
+export const magicEightBallAnswers = [
+  "It is certain",
+  "It is decidedly so",
+  "Without a doubt",
+  "Yes - definitely",
+
+  "As I see it, yes",
+  "Most likely",
+  "Outlook good",
+  "Yes",
+  "Signs point to yes",
+
+  "Reply hazy, try again",
+  "Ask again later",
+  "Better not tell you now",
+  "Cannot predict now",
+  "Concentrate and ask again",
+
+  "Don't count on it",
+  "My reply is no",
+  "My sources say no",
+  "Outlook not so good",
+  "Very doubtful",
+];

@@ -6,7 +6,7 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 import { Tilt } from "react-tilt";
 import { projects, cardTiltValues } from "../data";
 
-const ProjectsSection = () => {
+export default function ProjectsSection() {
   return (
     <section id="projects">
       <h1
@@ -75,6 +75,4 @@ const ProjectsSection = () => {
       </div>
     </section>
   );
-};
-
-export default ProjectsSection;
+}

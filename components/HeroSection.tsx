@@ -3,7 +3,7 @@ import React from "react";
 import Typed from "typed.js";
 import { skills } from "../data";
 
-const HeroSection = () => {
+export default function HeroSection() {
   const el = React.useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -56,6 +56,4 @@ const HeroSection = () => {
       </div>
     </section>
   );
-};
-
-export default HeroSection;
+}

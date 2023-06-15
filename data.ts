@@ -43,7 +43,7 @@ export const projects = [
   },
   {
     name: "Portfolio 2.0",
-    description: "React.",
+    description: "React. (with projects not shown here atm)",
     image: "/reactjs.jpg",
     github: "https://github.com/Marshan88/personal-portfolio",
     link: "https://marshan.me/",

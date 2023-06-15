@@ -8,8 +8,11 @@ import { projects, cardTiltValues } from "../data";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="h-screen">
-      <h1 className="my-10 text-center font-bold text-5xl">
+    <section id="projects">
+      <h1
+        className="my-10 text-center font-bold text-5xl"
+        style={{ userSelect: "none" }}
+      >
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-pink-500 border-0 rounded"></hr>
       </h1>

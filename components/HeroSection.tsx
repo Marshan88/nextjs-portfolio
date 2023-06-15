@@ -1,9 +1,6 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import Typed from "typed.js";
-import { Link } from "react-scroll/modules";
-import { HiArrowDown } from "react-icons/hi";
 import { skills } from "../data";
 
 const HeroSection = () => {
@@ -23,8 +20,8 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section id="home" className="h-screen">
-      <div className="flex flex-col text-center items-center justify-center py-16 sm:py-32 sm:my-10 md:py-40 md:flex-row md:space-x-4 md:text-left">
+    <section id="home">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="align-items-center">
           <span
             className="mb-4 font-bold tracking-wider text-2xl inline-block from-black to-gray-700 border px-4 py-2 border-pink-500"
@@ -47,7 +44,8 @@ const HeroSection = () => {
               return (
                 <p
                   key={index}
-                  className="bg-gray-800 px-4 py-2 mr-2 mt-2 text-yellow-500 rounded font-bold"
+                  className="bg-gray-800 px-4 py-2 mr-2 mt-2 text-green-300 rounded font-bold"
+                  style={{ userSelect: "none" }}
                 >
                   {item.skill}
                 </p>
@@ -55,20 +53,6 @@ const HeroSection = () => {
             })}
           </div>
         </div>
-        {/* <Link
-          to="about"
-          activeClass="active"
-          spy={true}
-          smooth={true}
-          offset={-100}
-          duration={500}
-          className="flex flex-row items-center text-center justify-center"
-        >
-          <HiArrowDown
-            size={35}
-            className="animate-bounce cursor-pointer text-green-300 md:block hidden"
-          />
-        </Link> */}
       </div>
     </section>
   );

@@ -20,7 +20,12 @@ export default function Navbar() {
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link to="home">
               <div className="container flex items-center space-x-2">
-                <h2 className="text-2xl font-bold cursor-pointer">Marius</h2>
+                <h2
+                  className="text-2xl font-bold cursor-pointer"
+                  style={{ userSelect: "none" }}
+                >
+                  Marius
+                </h2>
               </div>
             </Link>
             <div className="md:hidden">
@@ -45,10 +50,11 @@ export default function Navbar() {
                   <>
                     <div></div>
                     <Link
+                      style={{ userSelect: "none" }}
                       key={idx}
                       to={item.page}
                       className={
-                        "cursor-pointer block lg:inline-block text-neutral-900  hover:text-green-300 dark:text-neutral-100"
+                        "cursor-pointer block lg:inline-block text-neutral-900 dark:text-neutral-100"
                       }
                       activeClass="active"
                       spy={true}
@@ -65,14 +71,14 @@ export default function Navbar() {
               {currentTheme === "dark" ? (
                 <button
                   onClick={() => setTheme("light")}
-                  className="bg-slate-100 p-2 rounded-xl hover:bg-yellow-300"
+                  className="bg-slate-100 p-2 rounded-xl hover:bg-yellow-500"
                 >
                   <RiSunLine size={25} color="black" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme("dark")}
-                  className="bg-slate-100 p-2 rounded-xl hover:bg-blue-300"
+                  className="bg-slate-100 p-2 rounded-xl hover:bg-blue-500"
                 >
                   <RiMoonFill size={25} color="black" />
                 </button>

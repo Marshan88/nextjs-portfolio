@@ -36,21 +36,21 @@ export const skills = [
 export const projects = [
   {
     name: "Portfolio 3.0 (this)",
-    description: "Tech stack: Next.js, React, Typescript & Tailwind.",
+    description: "Next.js, React, Typescript & Tailwind.",
     image: "/nextjs.png",
     github: "https://github.com/Marshan88/personal-portfolio",
     link: "https://github.com/Marshan88/personal-portfolio",
   },
   {
     name: "Portfolio 2.0",
-    description: "Tech stack: React.",
+    description: "React.",
     image: "/reactjs.jpg",
     github: "https://github.com/Marshan88/personal-portfolio",
     link: "https://marshan.me/",
   },
   {
     name: "Portfolio 1.0",
-    description: "Tech stack: HTML, CSS and JS.",
+    description: "HTML, CSS and JS.",
     image: "/javascript.png",
     github: "https://github.com/Marshan88/MyPortfolio",
     link: "https://marshan88.github.io/MyPortfolio/",
@@ -134,28 +134,3 @@ export const cardTiltValues = {
   reset: true, // If the tilt effect has to be reset on exit.
   easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
 };
-
-export const magicEightBallAnswers = [
-  "It is certain",
-  "It is decidedly so",
-  "Without a doubt",
-  "Yes - definitely",
-
-  "As I see it, yes",
-  "Most likely",
-  "Outlook good",
-  "Yes",
-  "Signs point to yes",
-
-  "Reply hazy, try again",
-  "Ask again later",
-  "Better not tell you now",
-  "Cannot predict now",
-  "Concentrate and ask again",
-
-  "Don't count on it",
-  "My reply is no",
-  "My sources say no",
-  "Outlook not so good",
-  "Very doubtful",
-];

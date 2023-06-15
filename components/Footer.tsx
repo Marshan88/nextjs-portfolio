@@ -1,4 +1,3 @@
-import { BsArrowUp } from "react-icons/bs";
 import React from "react";
 import {
   AiOutlineGithub,

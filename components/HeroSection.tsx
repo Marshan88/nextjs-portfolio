@@ -24,7 +24,7 @@ export default function HeroSection() {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="align-items-center">
           <span
-            className="mb-4 font-bold tracking-wider text-2xl inline-block from-black to-gray-700 border px-4 py-2 border-pink-500"
+            className="mb-4 font-bold tracking-wider text-4xl inline-block from-black to-gray-700 border px-4 py-2 border-pink-500"
             style={{ userSelect: "none" }}
           >
             Welcome to my Portfolio
@@ -39,7 +39,7 @@ export default function HeroSection() {
             Currently looking for work/internship.
           </p>
           <div className="py-6 text-center md:text-center px-12"></div>
-          <div className="flex flex-wrap justify-right z-10 md:justify-start py-2 ">
+          <div className="flex flex-wrap justify-right z-10 md:justify-start py-2 md:w-1/2">
             {skills.map((item, index) => {
               return (
                 <p

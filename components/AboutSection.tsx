@@ -13,10 +13,10 @@ const AboutSection = () => {
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row">
-          <div className="text-center">
+          <div className="text-left">
             <p className="text-3xl">
-              <br></br>I like programming, learning new things
-              <br></br> and competative online games.<br></br>
+              <br></br>I like programming, competative online games,
+              <br></br>and to learning new things.<br></br>
               <br></br>
             </p>
             <p className="text-3xl">
@@ -29,7 +29,7 @@ const AboutSection = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GET-Academy.
+                GET-Academy,
               </a>{" "}
               where we used agile methodology and scrum. <br></br>
               <br></br>Currently working on full-stack projects,

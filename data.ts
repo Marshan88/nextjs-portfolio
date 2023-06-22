@@ -22,15 +22,14 @@ export const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "Tailwind CSS" },
   { skill: "TypeScript" },
+  { skill: "Tailwind CSS" },
+  { skill: "Node.js" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "GitHub" },
   { skill: ".NET framework" },
   { skill: "SQL" },
-  { skill: "Node.js" },
-  { skill: "Bootstrap" },
 ];
 
 export const projects = [
@@ -56,66 +55,7 @@ export const projects = [
     link: "https://marshan88.github.io/MyPortfolio/",
   },
 ];
-/*
 
-        <div className="float-right md:block sm:hidden">
-          <div className="justify-center md:flex">
-            <a href="mailto:mariush@getacademy.no">
-              <Image
-                src={"email2.svg"}
-                width={50}
-                height={50}
-                className=""
-                alt="email"
-                style={{ userSelect: "none" }}
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/marius-henriksen/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={"linkedin.svg"}
-                width={50}
-                height={50}
-                className=""
-                alt="linkedin"
-                style={{ userSelect: "none" }}
-              />
-            </a>
-            <a
-              href="https://github.com/Marshan88"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={"githubIcon.svg"}
-                width={50}
-                height={50}
-                className=""
-                alt="github"
-                style={{ userSelect: "none" }}
-              />
-            </a>
-            <a
-              href="https://www.buymeacoffee.com/mariushenrix"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src={"coffee.svg"}
-                width={50}
-                height={50}
-                className="revert-img-color"
-                alt="buymeacoffe"
-                style={{ userSelect: "none" }}
-              />
-            </a>
-          </div>
-        </div>
-
-*/
 export const socials = [
   {
     link: "mailto:",

@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div className="text-left">
             <p className="text-3xl">
               <br></br>I like programming, competative online games,
-              <br></br>and to learning new things.<br></br>
+              <br></br>and to learn new things.<br></br>
               <br></br>
             </p>
             <p className="text-3xl">
@@ -32,9 +32,9 @@ const AboutSection = () => {
                 GET-Academy,
               </a>{" "}
               where we used agile methodology and scrum. <br></br>
-              <br></br>Currently working on full-stack projects,
-              <br></br> and want to get more experience from working in a
-              company.
+              <br></br>Currently working on full-stack projects and looking into
+              cloud computing and devops tools like Docker, AWS, and Azure.
+              <br></br>
             </p>
           </div>
         </div>

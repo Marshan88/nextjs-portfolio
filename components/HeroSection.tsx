@@ -36,7 +36,7 @@ export default function HeroSection() {
           <br></br>
           <p className="text-3xl">
             My name is Marius,<br></br>IT-Developer based in Norway. <br></br>
-            Currently looking for work/internship.
+            Looking for work/internship.
           </p>
           <div className="py-6 text-center md:text-center px-12"></div>
           <div className="flex flex-wrap justify-right z-10 md:justify-start py-2 md:w-1/2">

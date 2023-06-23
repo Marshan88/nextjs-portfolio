@@ -15,25 +15,33 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row">
           <div className="text-left">
             <p className="text-3xl">
-              <br></br>I like programming, competative online games,
-              <br></br>and to learn new things.<br></br>
+              <br></br>I have a passion for programming, competative online
+              games,
+              <br></br>and constantly seeking opportunities to expand my
+              knowledge.<br></br>
               <br></br>
             </p>
             <p className="text-3xl">
-              Got some experience working on projects with different teams,{" "}
-              <br></br>
-              and learned the basics of a full-stack developer at{" "}
+              I gained valuable experience working on projects with diverse
+              teams, <br></br>
+              where I had the opportunity to learn the essentials of being a
+              full-stack developer at{" "}
               <a
                 className=" underline"
                 href="https://www.getacademy.no/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                GET-Academy,
-              </a>{" "}
-              where we used agile methodology and scrum. <br></br>
-              <br></br>Currently working on full-stack projects and looking into
-              cloud computing and devops tools like Docker, AWS, and Azure.
+                GET-Academy
+              </a>
+              .<br></br>
+              <br></br> We embraced the agile methodology and scrum practices,
+              <br></br>
+              equipping me with a solid foundation for my professional growth.{" "}
+              <br></br>
+              <br></br>I am currently engaged in full-stack projects while
+              exploring the realm of cloud computing and devops tools, such as
+              Docker, AWS, and Azure.
               <br></br>
             </p>
           </div>

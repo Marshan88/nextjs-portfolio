@@ -45,7 +45,7 @@ export const projects = [
     description: "React. (with projects not shown here atm)",
     image: "/reactjs.jpg",
     github: "https://github.com/Marshan88/personal-portfolio",
-    link: "personal-portfolio-navy-nine.vercel.app",
+    link: "https://personal-portfolio-navy-nine.vercel.app/",
   },
   {
     name: "Portfolio 1.0",
@@ -56,12 +56,23 @@ export const projects = [
   },
 ];
 
-export const socials = [
-  {
-    link: "mailto:",
-    image: "/email2.svg",
-  },
-];
+// export const socials = [
+//   {
+//     label: "GitHub",
+//     link: "https://github.com/Marshan88:",
+//     image: "/email2.svg",
+//   },
+//   {
+//     label: "LinkedIn",
+//     link: "mailto:",
+//     image: "/email2.svg",
+//   },
+//   {
+//     label: "Email",
+//     link: "mailto:",
+//     image: "/email2.svg",
+//   },
+// ];
 
 export const cardTiltValues = {
   reverse: true, // reverse the tilt direction

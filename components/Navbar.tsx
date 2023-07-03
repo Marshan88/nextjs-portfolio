@@ -24,7 +24,7 @@ export default function Navbar() {
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link to="home">
+            <a href="#home">
               <div className="container flex items-center space-x-2">
                 <h2
                   className="text-2xl font-bold cursor-pointer"
@@ -33,7 +33,7 @@ export default function Navbar() {
                   Marius
                 </h2>
               </div>
-            </Link>
+            </a>
             <div className="flex flex-row items-center justify-center space-x-2 mb-1">
               <a
                 href="mailto:mariush@getacademy.no"

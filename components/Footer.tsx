@@ -15,7 +15,7 @@ const Footer = () => {
           className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100"
           style={{ userSelect: "none" }}
         >
-          <a href="/">Go back to top</a>
+          <a href="#home">Go back to top</a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a

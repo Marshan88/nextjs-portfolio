@@ -1,3 +1,4 @@
+// NAV
 export interface NavItem {
   label: string;
   page: string;
@@ -18,6 +19,7 @@ export const NAV_ITEMS: Array<NavItem> = [
   },
 ];
 
+// HERO
 export const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
@@ -31,7 +33,7 @@ export const skills = [
   { skill: ".NET framework" },
   { skill: "SQL" },
 ];
-
+//PROJECT
 export const projects = [
   {
     name: "Portfolio 3.0 (this)",
@@ -55,24 +57,6 @@ export const projects = [
     link: "https://marshan88.github.io/MyPortfolio/",
   },
 ];
-
-// export const socials = [
-//   {
-//     label: "GitHub",
-//     link: "https://github.com/Marshan88:",
-//     image: "/email2.svg",
-//   },
-//   {
-//     label: "LinkedIn",
-//     link: "mailto:",
-//     image: "/email2.svg",
-//   },
-//   {
-//     label: "Email",
-//     link: "mailto:",
-//     image: "/email2.svg",
-//   },
-// ];
 
 export const cardTiltValues = {
   reverse: true, // reverse the tilt direction

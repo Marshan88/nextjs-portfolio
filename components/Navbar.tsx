@@ -86,7 +86,6 @@ export default function Navbar() {
               {NAV_ITEMS.map((item, idx) => {
                 return (
                   <>
-                    <div></div>
                     <Link
                       style={{ userSelect: "none" }}
                       key={idx}

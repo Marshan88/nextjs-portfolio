@@ -38,13 +38,13 @@ export const projects = [
   {
     name: "Portfolio 3.0 (this)",
     description: "Next.js, React, Typescript & Tailwind.",
-    image: "/nextjs.png",
+    image: "/nextjs.jpg",
     github: "https://github.com/Marshan88/nextjs-portfolio",
     link: "https://marshan.me",
   },
   {
     name: "Portfolio 2.0",
-    description: "React. (with projects not shown here atm)",
+    description: "React.JS (with projects not shown here atm)",
     image: "/reactjs.jpg",
     github: "https://github.com/Marshan88/personal-portfolio",
     link: "https://personal-portfolio-navy-nine.vercel.app/",
@@ -52,7 +52,7 @@ export const projects = [
   {
     name: "Portfolio 1.0",
     description: "HTML, CSS and JS.",
-    image: "/javascript.png",
+    image: "/javascript.jpg",
     github: "https://github.com/Marshan88/MyPortfolio",
     link: "https://marshan88.github.io/MyPortfolio/",
   },

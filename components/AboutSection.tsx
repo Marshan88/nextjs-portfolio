@@ -22,9 +22,9 @@ const AboutSection = () => {
               <br></br>
             </p>
             <p className="text-3xl">
-              I gained valuable experience working on projects with diverse
-              teams, <br></br>
-              where I had the opportunity to learn the essentials of being a
+              Gained valuable experience working on projects with diverse teams,{" "}
+              <br></br>
+              and had the opportunity to learn the essentials of being a
               full-stack developer at{" "}
               <a
                 className=" underline"
@@ -39,9 +39,9 @@ const AboutSection = () => {
               <br></br>
               equipping me with a solid foundation for my professional growth.{" "}
               <br></br>
-              <br></br>I am currently engaged in full-stack projects while
-              exploring the realm of cloud computing and devops tools, such as
-              Docker, AWS, and Azure.
+              <br></br>Currently engaged in full-stack projects while exploring
+              the realm of cloud computing and devops tools, such as Docker,
+              AWS, and Azure.
               <br></br>
             </p>
           </div>

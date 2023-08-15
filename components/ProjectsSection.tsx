@@ -30,7 +30,7 @@ export default function ProjectsSection() {
                     <Tilt options={cardTiltValues}>
                       <Image
                         src={project.image}
-                        alt=""
+                        alt="project image"
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-60"

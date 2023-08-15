@@ -83,12 +83,11 @@ export default function Navbar() {
             }`}
           >
             <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-              {NAV_ITEMS.map((item, idx) => {
+              {NAV_ITEMS.map((item, index) => {
                 return (
-                  <>
+                  <div key={index}>
                     <Link
                       style={{ userSelect: "none" }}
-                      key={idx}
                       to={item.page}
                       className={
                         "cursor-pointer block lg:inline-block text-neutral-900 dark:text-neutral-100"
@@ -102,7 +101,7 @@ export default function Navbar() {
                     >
                       {item.label}
                     </Link>
-                  </>
+                  </div>
                 );
               })}
               {currentTheme === "dark" ? (

@@ -19,7 +19,7 @@ export default function ProjectsSection() {
       <div className="flex flex-col space-y-28">
         {projects.map((project, index) => {
           return (
-            <div key={index}>
+            <React.Fragment key={index}>
               <div className="flex flex-col md:flex-row md:space-x-12">
                 <div className=" md:w-1/2">
                   <Link
@@ -69,7 +69,7 @@ export default function ProjectsSection() {
                   </div>
                 </div>
               </div>
-            </div>
+            </React.Fragment>
           );
         })}
       </div>

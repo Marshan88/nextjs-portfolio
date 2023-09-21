@@ -1,13 +1,13 @@
-"use client";
-import React from "react";
-import Typed from "typed.js";
-import { skills } from "../data";
+'use client';
+import React from 'react';
+import Typed from 'typed.js';
+import { skills } from '../data';
 
 export default function HeroSection() {
   const el = React.useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["<i>Front-end.</i>", "<i>Back-end.</i>", "<i>Full-stack.</i>"],
+      strings: ['<i>Front-end.</i>', '<i>Back-end.</i>', '<i>Full-stack.</i>'],
       typeSpeed: 60,
       backSpeed: 35,
       backDelay: 2000,
@@ -25,7 +25,7 @@ export default function HeroSection() {
         <div className="align-items-center">
           <span
             className="mb-4 font-bold tracking-wider text-4xl inline-block from-black to-gray-700 border px-4 py-2 border-pink-500"
-            style={{ userSelect: "none" }}
+            style={{ userSelect: 'none' }}
           >
             Welcome to my Portfolio
           </span>
@@ -45,7 +45,7 @@ export default function HeroSection() {
                 <p
                   key={index}
                   className="bg-gray-800 px-4 py-2 mr-2 mt-2 text-green-300 rounded font-bold"
-                  style={{ userSelect: "none" }}
+                  style={{ userSelect: 'none' }}
                 >
                   {item.skill}
                 </p>

@@ -1,10 +1,9 @@
-import React from "react";
+import React from 'react';
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineCoffee,
   AiOutlineMail,
-} from "react-icons/ai";
+} from 'react-icons/ai';
 
 const Footer = () => {
   return (
@@ -13,7 +12,7 @@ const Footer = () => {
       <div className="mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div
           className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100"
-          style={{ userSelect: "none" }}
+          style={{ userSelect: 'none' }}
         >
           <a href="#home">Go back to top</a>
         </div>

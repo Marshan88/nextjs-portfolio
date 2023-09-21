@@ -1,17 +1,16 @@
-"use client";
-import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
-import { Tilt } from "react-tilt";
-import { projects, cardTiltValues } from "../data";
+'use client';
+import React from 'react';
+import Image from 'next/image';
+import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
+import { Tilt } from 'react-tilt';
+import { projects, cardTiltValues } from '../data';
 
 export default function ProjectsSection() {
   return (
     <section id="projects">
       <h1
         className="my-10 text-center font-bold text-5xl"
-        style={{ userSelect: "none" }}
+        style={{ userSelect: 'none' }}
       >
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-pink-500 border-0 rounded"></hr>
@@ -22,7 +21,7 @@ export default function ProjectsSection() {
             <React.Fragment key={index}>
               <div className="flex flex-col md:flex-row md:space-x-12">
                 <div className=" md:w-1/2">
-                  <Link
+                  <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href={project.link}
@@ -36,7 +35,7 @@ export default function ProjectsSection() {
                         className="rounded-xl shadow-xl hover:opacity-60"
                       />
                     </Tilt>
-                  </Link>
+                  </a>
                 </div>
                 <div className="mt-8 md:w-1/2">
                   <h1 className="text-4xl font-bold mb-6 text-yellow-500">
@@ -46,7 +45,7 @@ export default function ProjectsSection() {
                     {project.description}
                   </p>
                   <div className="flex flex-row align-bottom space-x-4">
-                    <Link
+                    <a
                       rel="noopener noreferrer"
                       target="_blank"
                       href={project.github}
@@ -55,8 +54,8 @@ export default function ProjectsSection() {
                         size={30}
                         className="hover:-translate-y-1 transition-transform cursor-pointer text-green-300"
                       />
-                    </Link>
-                    <Link
+                    </a>
+                    <a
                       rel="noopener noreferrer"
                       target="_blank"
                       href={project.link}
@@ -65,7 +64,7 @@ export default function ProjectsSection() {
                         size={30}
                         className="hover:-translate-y-1 transition-transform cursor-pointer text-green-300"
                       />
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

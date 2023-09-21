@@ -44,7 +44,7 @@ export const projects = [
   },
   {
     name: 'Portfolio 2.0',
-    description: 'React.JS (with projects not shown here atm)',
+    description: 'React.JS',
     image: '/reactjs.jpg',
     github: 'https://github.com/Marshan88/personal-portfolio',
     link: 'https://personal-portfolio-navy-nine.vercel.app/',

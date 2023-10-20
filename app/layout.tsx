@@ -14,17 +14,17 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Header />
       <React.StrictMode>
         <body className="dark:bg-stone-900">
+          <Header />
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />
             {children}
             <Analytics />
           </ThemeProvider>
+          <Footer />
         </body>
       </React.StrictMode>
-      <Footer />
     </html>
   );
 }

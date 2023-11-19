@@ -3,6 +3,9 @@
  */
 const nextConfig = {
   /* config options here */
+  experimental: {
+    ppr: true,
+  },
 };
 
 module.exports = nextConfig;

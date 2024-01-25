@@ -8,6 +8,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        customdarkblue: '#0D1117',
+        customgreen: '#3FB950',
+        customcyan: '#33B3AE',
+      },
       screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
       animation: {
         bounce:

@@ -13,7 +13,7 @@ export default function ProjectsSection() {
         style={{ userSelect: 'none' }}
       >
         Projects
-        <hr className="w-6 h-1 mx-auto my-4 bg-pink-500 border-0 rounded"></hr>
+        <hr className="w-6 h-1 mx-auto my-4 bg-customcyan border-0 rounded"></hr>
       </h1>
       <div className="flex flex-col space-y-28">
         {projects.map((project, index) => {
@@ -38,9 +38,7 @@ export default function ProjectsSection() {
                   </a>
                 </div>
                 <div className="mt-8 md:w-1/2">
-                  <h1 className="text-4xl font-bold mb-6 text-yellow-500">
-                    {project.name}
-                  </h1>
+                  <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
                   <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
                     {project.description}
                   </p>
@@ -52,7 +50,7 @@ export default function ProjectsSection() {
                     >
                       <BsGithub
                         size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer text-green-300"
+                        className="hover:-translate-y-1 transition-transform cursor-pointer text-customcyan"
                       />
                     </a>
                     <a
@@ -62,7 +60,7 @@ export default function ProjectsSection() {
                     >
                       <BsArrowUpRightSquare
                         size={30}
-                        className="hover:-translate-y-1 transition-transform cursor-pointer text-green-300"
+                        className="hover:-translate-y-1 transition-transform cursor-pointer text-customcyan"
                       />
                     </a>
                   </div>

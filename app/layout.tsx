@@ -12,10 +12,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  //bg-darkblue
   return (
     <html lang="en">
       <React.StrictMode>
-        <body className="dark:bg-stone-900">
+        <body className="dark:bg-customdarkblue">
           <Header />
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />

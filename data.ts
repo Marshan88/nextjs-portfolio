@@ -27,34 +27,35 @@ export const skills = [
   { skill: 'TypeScript' },
   { skill: 'Tailwind CSS' },
   { skill: 'Node.js' },
-  { skill: 'React' },
-  { skill: 'Next.js' },
+  { skill: 'React.JS' },
+  { skill: 'Next.JS' },
   { skill: 'GitHub' },
-  { skill: '.NET framework' },
+  { skill: '.NET' },
   { skill: 'SQL' },
 ];
 //PROJECT
 export const projects = [
   {
+    name: 'E-commerce',
+    description:
+      'Next.js, React.js and Typescript with Sanity.io CMS. Cant actually buy anything though, its just a demo.',
+    image: '/nextjs.webp',
+    github: 'https://nextjs-my-ecommerce.vercel.app',
+    link: 'https://nextjs-my-ecommerce.vercel.app',
+  },
+  {
     name: 'Portfolio 3.0 (this)',
     description: 'Next.js, React, Typescript & Tailwind.',
-    image: '/nextjs.jpg',
+    image: '/nextjs.webp',
     github: 'https://github.com/Marshan88/nextjs-portfolio',
     link: 'https://marshan.me',
   },
   {
     name: 'Portfolio 2.0',
     description: 'React.JS',
-    image: '/reactjs.jpg',
+    image: '/reactjs.png',
     github: 'https://github.com/Marshan88/personal-portfolio',
     link: 'https://personal-portfolio-navy-nine.vercel.app/',
-  },
-  {
-    name: 'Portfolio 1.0',
-    description: 'HTML, CSS and JS.',
-    image: '/javascript.jpg',
-    github: 'https://github.com/Marshan88/MyPortfolio',
-    link: 'https://marshan88.github.io/MyPortfolio/',
   },
 ];
 

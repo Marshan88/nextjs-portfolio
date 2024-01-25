@@ -20,7 +20,7 @@ export default function Navbar() {
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
   return (
-    <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
+    <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-customdarkblue">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -104,17 +104,17 @@ export default function Navbar() {
                   </div>
                 );
               })}
-              {currentTheme === 'dark' ? (
+              {theme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="bg-slate-100 p-2 rounded-xl hover:bg-yellow-500"
+                  className="bg-yellow-500 p-2 rounded-xl hover:bg-white"
                 >
                   <RiSunLine size={25} color="black" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
-                  className="bg-slate-100 p-2 rounded-xl hover:bg-blue-500"
+                  className="bg-customcyan p-2 rounded-xl hover:bg-white"
                 >
                   <RiMoonFill size={25} color="black" />
                 </button>

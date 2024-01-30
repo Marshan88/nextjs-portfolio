@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { Link } from 'react-scroll/modules';
 import { usePathname } from 'next/navigation';
@@ -10,15 +10,19 @@ import { NAV_ITEMS } from '../data';
 import {
   AiOutlineGithub,
   AiOutlineLinkedin,
-  AiOutlineCoffee,
   AiOutlineMail,
 } from 'react-icons/ai';
 
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
-  const currentTheme = theme === 'system' ? systemTheme : theme;
+  const [mounted, setMounted] = useState(false);
   const pathname = usePathname();
   const [navbar, setNavbar] = useState(false);
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+  if (!mounted) return null;
+  const currentTheme = theme === 'system' ? systemTheme : theme;
   return (
     <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-customdarkblue">
       <div className="justify-between md:items-center md:flex">
@@ -104,7 +108,7 @@ export default function Navbar() {
                   </div>
                 );
               })}
-              {theme === 'dark' ? (
+              {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
                   className="bg-yellow-500 p-2 rounded-xl hover:bg-white"

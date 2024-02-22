@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import { ThemeProvider } from 'next-themes';
 import Header from './head';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function RootLayout({
   children,
@@ -21,6 +22,7 @@ export default function RootLayout({
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />
             {children}
+            <SpeedInsights />
             <Analytics />
           </ThemeProvider>
           <Footer />

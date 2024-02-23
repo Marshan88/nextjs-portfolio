@@ -24,7 +24,9 @@ export default function Navbar() {
   if (!mounted) return null;
   const currentTheme = theme === 'system' ? systemTheme : theme;
   return (
-    <header className="w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-customdarkblue">
+    //w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-customdarkblue
+    //z-30 fixed top-0 w-full backdrop-blur flex-none bg-background-light supports-backdrop-blur:bg-background-light/95 dark:bg-background-dark/75
+    <header className="mx-auto px-4 sm:px-20 z-30 fixed top-0 w-full backdrop-blur flex-none bg-background-light supports-backdrop-blur:bg-background-light/95 dark:bg-background-dark/75">
       <div className="justify-between md:items-center md:flex">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -111,14 +113,14 @@ export default function Navbar() {
               {currentTheme === 'dark' ? (
                 <button
                   onClick={() => setTheme('light')}
-                  className="bg-yellow-500 p-2 rounded-xl hover:bg-white"
+                  className="bg-yellow-100 p-2 rounded-xl hover:bg-white"
                 >
                   <RiSunLine size={25} color="black" />
                 </button>
               ) : (
                 <button
                   onClick={() => setTheme('dark')}
-                  className="bg-customcyan p-2 rounded-xl hover:bg-white"
+                  className="bg-cyan-100 p-2 rounded-xl hover:bg-white"
                 >
                   <RiMoonFill size={25} color="black" />
                 </button>

@@ -13,11 +13,11 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  //bg-darkblue
+  //dark:bg-customdarkblue || dark:bg-gradient-to-b from-customdarkblue via-slate-800 to-customdarkblue
   return (
     <html lang="en">
       <React.StrictMode>
-        <body className="dark:bg-customdarkblue">
+        <body className="bg-gray-50 dark:bg-gradient-to-b from-customdarkblue via-slate-900 to-customdarkblue">
           <Header />
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />

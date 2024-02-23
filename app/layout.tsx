@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <React.StrictMode>
-        <body className="bg-gray-50 dark:bg-gradient-to-b from-customdarkblue via-slate-900 to-customdarkblue">
+        <body className="bg-gray-100 dark:bg-gradient-to-b from-customdarkblue via-slate-900 to-customdarkblue">
           <Header />
           <ThemeProvider enableSystem={true} attribute="class">
             <Navbar />

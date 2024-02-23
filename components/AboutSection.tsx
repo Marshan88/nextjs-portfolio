@@ -1,9 +1,46 @@
 import React from 'react';
+import {
+  AiOutlineGithub,
+  AiOutlineLinkedin,
+  AiOutlineMail,
+} from 'react-icons/ai';
 
 const AboutSection = () => {
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
+        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+          <a
+            href="mailto:mariush@getacademy.no"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineMail
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://github.com/Marshan88"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineGithub
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/marius-henriksen/"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+        </div>
         <h1
           className="text-center font-bold text-5xl"
           style={{ userSelect: 'none' }}

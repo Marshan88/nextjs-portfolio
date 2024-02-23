@@ -13,7 +13,6 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  //dark:bg-customdarkblue || dark:bg-gradient-to-b from-customdarkblue via-slate-800 to-customdarkblue
   return (
     <html lang="en">
       <React.StrictMode>

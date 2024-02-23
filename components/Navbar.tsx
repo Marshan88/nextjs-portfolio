@@ -7,11 +7,6 @@ import { useTheme } from 'next-themes';
 import { RiMoonFill, RiSunLine } from 'react-icons/ri';
 import { IoMdMenu, IoMdClose } from 'react-icons/io';
 import { NAV_ITEMS } from '../data';
-import {
-  AiOutlineGithub,
-  AiOutlineLinkedin,
-  AiOutlineMail,
-} from 'react-icons/ai';
 
 export default function Navbar() {
   const { systemTheme, theme, setTheme } = useTheme();
@@ -24,8 +19,6 @@ export default function Navbar() {
   if (!mounted) return null;
   const currentTheme = theme === 'system' ? systemTheme : theme;
   return (
-    //w-full mx-auto px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-customdarkblue
-    //z-30 fixed top-0 w-full backdrop-blur flex-none bg-background-light supports-backdrop-blur:bg-background-light/95 dark:bg-background-dark/75
     <header className="mx-auto px-4 sm:px-20 z-30 fixed top-0 w-full backdrop-blur flex-none bg-background-light supports-backdrop-blur:bg-background-light/95 dark:bg-background-dark/75">
       <div className="justify-between md:items-center md:flex">
         <div>
@@ -40,38 +33,6 @@ export default function Navbar() {
                 </h2>
               </div>
             </a>
-            <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-              <a
-                href="mailto:mariush@getacademy.no"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <AiOutlineMail
-                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                  size={30}
-                />
-              </a>
-              <a
-                href="https://github.com/Marshan88"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <AiOutlineGithub
-                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                  size={30}
-                />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/marius-henriksen/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <AiOutlineLinkedin
-                  className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
-                  size={30}
-                />
-              </a>
-            </div>
             <div className="md:hidden">
               <button
                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"

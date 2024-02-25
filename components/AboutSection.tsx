@@ -61,7 +61,7 @@ const AboutSection = () => {
               Gained valuable experience working on projects with diverse teams,{' '}
               <br></br>
               and had the opportunity to learn the essentials of being a
-              full-stack developer at{' '}
+              fullstack developer at{' '}
               <a
                 className=" underline"
                 href="https://www.getacademy.no/"
@@ -75,7 +75,7 @@ const AboutSection = () => {
               <br></br>
               equipping me with a solid foundation for my professional growth.{' '}
               <br></br>
-              <br></br>Currently engaged in full-stack projects while exploring
+              <br></br>Currently engaged in fullstack projects while exploring
               the realm of cloud computing and devops tools.
               <br></br>
             </p>

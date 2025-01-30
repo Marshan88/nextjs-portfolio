@@ -13,6 +13,7 @@ const AboutSection = () => {
           <a
             href="mailto:mariush@getacademy.no"
             rel="noreferrer"
+            title="Send me an email"
             target="_blank"
           >
             <AiOutlineMail
@@ -22,7 +23,8 @@ const AboutSection = () => {
           </a>
           <a
             href="https://github.com/Marshan88"
-            rel="noreferrer"
+            rel="noreferrer noopener"
+            title="link to my gitHub"
             target="_blank"
           >
             <AiOutlineGithub
@@ -32,7 +34,8 @@ const AboutSection = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/marius-henriksen/"
-            rel="noreferrer"
+            rel="noreferrer noopener"
+            title="link to my linkedIn"
             target="_blank"
           >
             <AiOutlineLinkedin
@@ -51,33 +54,15 @@ const AboutSection = () => {
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row">
           <div className="text-left">
-            <p className="text-3xl">
-              <br></br>I have a passion for programming and problem-solving,{' '}
-              <br></br>constantly seeking opportunities to expand my knowledge.
-              <br></br>
-              <br></br>
-            </p>
-            <p className="text-3xl">
-              Gained valuable experience working on projects with diverse teams,{' '}
-              <br></br>
-              and had the opportunity to learn the essentials of being a
-              fullstack developer at{' '}
-              <a
-                className=" underline"
-                href="https://www.getacademy.no/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GET-Academy
-              </a>
-              .<br></br>
-              <br></br> We embraced the agile methodology and scrum practices,
-              <br></br>
-              equipping me with a solid foundation for my professional growth.{' '}
-              <br></br>
-              <br></br>Currently engaged in fullstack projects while exploring
-              the realm of cloud computing and devops tools.
-              <br></br>
+            <p className="text-4xl">
+              I am a dedicated technology enthusiast with a strong interest in
+              drones, programming, AI, and automation. Driven by continuous
+              development with grit and growth mindset as core principles, I
+              actively explore how new technological solutions can create value
+              in working life.<br></br>
+              <br></br> I am currently pursuing education to become a drone
+              operator, equipped with an STS certificate and working toward
+              achieving SORA competency.
             </p>
           </div>
         </div>

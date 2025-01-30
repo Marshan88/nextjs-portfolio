@@ -21,6 +21,7 @@ const Footer = () => {
             href="mailto:mariush@getacademy.no"
             rel="noreferrer"
             target="_blank"
+            title="Send me an email"
           >
             <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
@@ -29,7 +30,8 @@ const Footer = () => {
           </a>
           <a
             href="https://github.com/Marshan88"
-            rel="noreferrer"
+            rel="noreferrer noopener"
+            title="link to my gitHub"
             target="_blank"
           >
             <AiOutlineGithub
@@ -39,7 +41,8 @@ const Footer = () => {
           </a>
           <a
             href="https://www.linkedin.com/in/marius-henriksen/"
-            rel="noreferrer"
+            rel="noreferrer noopener"
+            title="link to my linkedIn"
             target="_blank"
           >
             <AiOutlineLinkedin

@@ -73,6 +73,7 @@ export default function Navbar() {
               })}
               {currentTheme === 'dark' ? (
                 <button
+                  title="Toggle light mode"
                   onClick={() => setTheme('light')}
                   className="bg-yellow-100 p-2 rounded-xl hover:bg-white"
                 >
@@ -80,6 +81,7 @@ export default function Navbar() {
                 </button>
               ) : (
                 <button
+                  title="Toggle dark mode"
                   onClick={() => setTheme('dark')}
                   className="bg-cyan-100 p-2 rounded-xl hover:bg-white"
                 >

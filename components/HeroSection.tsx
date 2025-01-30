@@ -8,9 +8,13 @@ export default function HeroSection() {
   const el = React.useRef(null);
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['<i>Front-end.</i>', '<i>Back-end.</i>', '<i>Fullstack.</i>'],
-      typeSpeed: 60,
-      backSpeed: 35,
+      strings: [
+        '<i>Fullstack Developer</i>',
+        '<i>Drone Operator</i>',
+        '<i>STS Certified.</i>',
+      ],
+      typeSpeed: 50,
+      backSpeed: 25,
       backDelay: 2000,
       loop: true,
     });
@@ -30,7 +34,7 @@ export default function HeroSection() {
           >
             Welcome to my Portfolio
           </span>
-          <h2 className="text-5xl">Designing websites / apps for companies</h2>
+          <h2 className="text-4xl">Drones & Development</h2>
           <h2 className="py-4 text-4xl ">
             <span
               className="bg-gradient-to-r from-customcyan via-cyan-500 to-cyan-200 bg-clip-text text-transparent inline-block"
@@ -39,19 +43,10 @@ export default function HeroSection() {
           </h2>
           <br></br>
           <p className="text-3xl">
-            My name is Marius,<br></br>IT-Developer based in Norway. <br></br>
+            My name is Marius,<br></br>Drone Operator & IT-Developer based in
+            Norway. <br></br>
             Currently looking for work.
           </p>
-          {/* <div>
-            <a href="https://app.daily.dev/mariusvalkeinen">
-              <Image
-                src="https://api.daily.dev/devcards/26d94e775a674e7fa897919f94300d6d.png?r=ajo"
-                width="400"
-                height="200"
-                alt="Marius Valkeinen's Dev Card"
-              />
-            </a>
-          </div> */}
           <div className="py-6 text-center md:text-center px-12"></div>
           <div className="flex flex-wrap justify-right z-10 md:justify-start py-2 md:w-1/2">
             {skills.map((item, index) => {

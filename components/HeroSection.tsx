@@ -34,7 +34,7 @@ export default function HeroSection() {
           >
             Welcome to my Portfolio
           </span>
-          <h2 className="text-4xl">Drones & Development</h2>
+          {/* <h2 className="text-4xl">Drones & Development</h2> */}
           <h2 className="py-4 text-4xl ">
             <span
               className="bg-gradient-to-r from-customcyan via-cyan-500 to-cyan-200 bg-clip-text text-transparent inline-block"

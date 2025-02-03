@@ -48,21 +48,22 @@ const AboutSection = () => {
           className="text-center font-bold text-5xl"
           style={{ userSelect: 'none' }}
         >
-          About Me{' '}
+          About Me
           <hr className="w-6 h-1 mx-auto my-4 bg-customcyan border-0 rounded"></hr>
         </h1>
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row">
           <div className="text-left">
             <p className="text-4xl">
-              I am a dedicated technology enthusiast with a strong interest in
-              drones, programming, AI, and automation. Driven by continuous
-              development with grit and growth mindset as core principles, I
-              actively explore how new technological solutions can create value
-              in working life.<br></br>
-              <br></br> I am currently pursuing education to become a drone
-              operator, equipped with an STS certificate and working toward
-              achieving SORA competency.
+              A dedicated technology enthusiast with a strong interest in
+              drones, programming, automation and AI.<br></br> Driven by
+              continuous development with grit and growth mindset as core
+              principles, I actively explore how new technological solutions can
+              create value in working life.<br></br>
+              <br></br>Currently pursuing a pioneering degree in drone
+              operations with specialization in SORA (Specific Operations Risk
+              Assessment). I am also a full-stack developer looking for new
+              opportunities to learn and grow.
             </p>
           </div>
         </div>

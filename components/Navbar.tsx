@@ -19,10 +19,10 @@ export default function Navbar() {
   if (!mounted) return null;
   const currentTheme = theme === 'system' ? systemTheme : theme;
   return (
-    <header className="mx-auto px-4 sm:px-20 z-30 fixed top-0 w-full backdrop-blur flex-none bg-background-light supports-backdrop-blur:bg-background-light/95 dark:bg-background-dark/75">
+    <header className="mx-auto px-4 sm:px-14 z-30 fixed top-0 w-full backdrop-blur flex-none bg-background-light supports-backdrop-blur:bg-background-light/95 dark:bg-background-dark/75">
       <div className="justify-between md:items-center md:flex">
         <div>
-          <div className="flex items-center justify-between py-3 md:py-5 md:block">
+          <div className="flex items-center justify-between py-2 md:block">
             <a href="#home">
               <div className="container flex items-center space-x-2">
                 <h2
@@ -75,15 +75,13 @@ export default function Navbar() {
                 <button
                   title="Toggle light mode"
                   onClick={() => setTheme('light')}
-                  className="bg-yellow-100 p-2 rounded-xl hover:bg-white"
                 >
-                  <RiSunLine size={25} color="black" />
+                  <RiSunLine size={25} color="white" />
                 </button>
               ) : (
                 <button
                   title="Toggle dark mode"
                   onClick={() => setTheme('dark')}
-                  className="bg-cyan-100 p-2 rounded-xl hover:bg-white"
                 >
                   <RiMoonFill size={25} color="black" />
                 </button>

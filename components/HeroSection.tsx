@@ -9,9 +9,9 @@ export default function HeroSection() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        '<i>Fullstack Developer</i>',
-        '<i>Drone Operator</i>',
+        '<i>Drone Operator.</i>',
         '<i>STS Certified.</i>',
+        '<i>Fullstack Developer.</i>',
       ],
       typeSpeed: 50,
       backSpeed: 25,
@@ -26,10 +26,10 @@ export default function HeroSection() {
 
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left ">
+      <div className="flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:py-30 md:flex-row md:space-x-4 md:text-left ">
         <div className="align-items-center">
           <span
-            className="mb-4 font-bold tracking-wider text-4xl inline-block from-black to-gray-700 border-2 rounded px-4 py-2 border-customcyan"
+            className="font-bold tracking-wide text-5xl inline-block from-black to-gray-700 border-2 rounded px-4 py-2 pt-4 border-customcyan"
             style={{ userSelect: 'none' }}
           >
             Welcome to my Portfolio

@@ -21,6 +21,7 @@ export const NAV_ITEMS: Array<NavItem> = [
 
 // HERO
 export const skills = [
+  { skill: 'Drone certifications: A1-A3/STS' },
   { skill: 'HTML' },
   { skill: 'CSS' },
   { skill: 'JavaScript' },
@@ -30,8 +31,15 @@ export const skills = [
   { skill: 'React.js' },
   { skill: 'Next.js' },
   { skill: 'GitHub' },
-  { skill: '.NET' },
+  { skill: 'C#' },
   { skill: 'SQL' },
+];
+export const certificates = [
+  { cert: 'A1/A3' },
+  { cert: 'A2' },
+  { cert: 'STS' },
+  { cert: 'SORA' },
+  { cert: 'LiDAR & Photogrammetry' },
 ];
 //PROJECT
 export const projects = [

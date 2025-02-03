@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   darkMode: 'class',
   content: [
@@ -8,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Newsreader', ...defaultTheme.fontFamily.sans],
+      },
       colors: {
         customdarkblue: '#0D1117',
         customgreen: '#3FB950',

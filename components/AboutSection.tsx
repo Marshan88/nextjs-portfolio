@@ -24,7 +24,7 @@ const AboutSection = () => {
           <a
             href="https://github.com/Marshan88"
             rel="noreferrer noopener"
-            title="link to my gitHub"
+            title="Link to my GitHub"
             target="_blank"
           >
             <AiOutlineGithub
@@ -33,9 +33,9 @@ const AboutSection = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/marius-henriksen/"
+            href="https://www.linkedin.com/in/marius-valkeinen/"
             rel="noreferrer noopener"
-            title="link to my linkedIn"
+            title="Link to my LinkedIn"
             target="_blank"
           >
             <AiOutlineLinkedin

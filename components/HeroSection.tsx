@@ -43,8 +43,8 @@ export default function HeroSection() {
           </h2>
           <br></br>
           <p className="text-3xl">
-            My name is Marius,<br></br>Drone Operator & IT-Developer based in
-            Norway. <br></br>
+            My name is Marius,<br></br>IT-Developer, Drone Pilot & Operator
+            based in Norway. <br></br>
             Currently looking for work.
           </p>
           <div className="py-6 text-center md:text-center px-12"></div>

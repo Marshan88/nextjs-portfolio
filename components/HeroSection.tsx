@@ -9,7 +9,7 @@ export default function HeroSection() {
   React.useEffect(() => {
     const typed = new Typed(el.current, {
       strings: [
-        '<i>Drone Operator.</i>',
+        '<i>Drone Pilot & Operator.</i>',
         '<i>STS Certified.</i>',
         '<i>Fullstack Developer.</i>',
       ],

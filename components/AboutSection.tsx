@@ -57,7 +57,7 @@ const AboutSection = () => {
             <p className="text-4xl">
               A dedicated technology enthusiast with strong interests in drones,
               programming, automation, and AI. <br></br>
-              With a focus on learning and adaptability, I explore how emerging
+              Focused on learning and adaptability, I explore how emerging
               technologies can add value across professional environments and
               shape the future of work.
               <br></br>

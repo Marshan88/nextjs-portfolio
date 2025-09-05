@@ -12,7 +12,7 @@ const AboutSection = () => {
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a
             href="mailto:mariush@getacademy.no"
-            rel="noreferrer"
+            rel="noreferrer noopener"
             title="Send me an email"
             target="_blank"
           >

@@ -44,11 +44,11 @@ export const certificates = [
 //PROJECT
 export const projects = [
   {
-    name: 'AI Platform',
-    description: 'React, Tailwind, Prisma and Stripe.',
-    image: '/nextjs.webp',
-    github: 'https://ai-saas-nextjs-one.vercel.app/',
-    link: 'https://ai-saas-nextjs-one.vercel.app/',
+    name: 'Drone Website',
+    description: 'v0, Next.js, Typescript and Tailwind CSS.',
+    image: '/dronewebsite.avif',
+    github: 'https://github.com/Marshan88/nextjs-v0-dronewebsite',
+    link: 'https://v0-new-wq.vercel.app/',
   },
   {
     name: 'E-commerce',

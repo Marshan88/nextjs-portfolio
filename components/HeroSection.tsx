@@ -43,7 +43,7 @@ export default function HeroSection() {
           </h2>
           <br></br>
           <p className="text-3xl">
-            My name is Marius,<br></br>IT-Developer, Drone Pilot & Operator
+            My name is Marius,<br></br>IT-Developer, Drone Pilot
             based in Norway. <br></br>
             Currently looking for work.
           </p>

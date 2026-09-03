@@ -45,7 +45,8 @@ export const certificates = [
 export const projects = [
   {
     name: 'Drone Website',
-    description: 'v0, Next.js, Typescript and Tailwind CSS.',
+    description:
+    'A drone-focused website built with v0 and developed further in Next.js, exploring responsive design, reusable components, and clear visual content.',
     image: '/dronewebsite.avif',
     github: 'https://github.com/Marshan88/nextjs-v0-dronewebsite',
     link: 'https://v0-new-wq.vercel.app/',
@@ -53,17 +54,17 @@ export const projects = [
   {
     name: 'E-commerce',
     description:
-      'Next.js, React.js and Typescript with Sanity.io CMS. Cant actually buy anything though, its just a demo.',
+      'A demo e-commerce storefront built with Next.js, React, TypeScript, and Sanity CMS. It explores product content management, catalogue-style pages, and a modern responsive frontend; checkout and payments are not implemented.',
     image: '/nextjs.webp',
     github: 'https://nextjs-my-ecommerce.vercel.app',
     link: 'https://nextjs-my-ecommerce.vercel.app',
   },
   {
     name: 'Portfolio 3.0 (this)',
-    description: 'Next.js, React, Typescript & Tailwind.',
+    description: 'My personal portfolio, built with Next.js, React, TypeScript, and Tailwind CSS. It brings together my web-development projects, drone-operations background, and ongoing interests in software and automation.',
     image: '/nextjs.webp',
     github: 'https://github.com/Marshan88/nextjs-portfolio',
-    link: 'https://marshan.me',
+    link: 'https://marshan.dev',
   },
 ];
 

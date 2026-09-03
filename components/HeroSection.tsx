@@ -34,7 +34,6 @@ export default function HeroSection() {
           >
             Welcome to my Portfolio
           </span>
-          {/* <h2 className="text-4xl">Drones & Development</h2> */}
           <h2 className="py-4 text-4xl ">
             <span
               className="bg-gradient-to-r from-customcyan via-cyan-500 to-cyan-200 bg-clip-text text-transparent inline-block"
@@ -43,9 +42,8 @@ export default function HeroSection() {
           </h2>
           <br></br>
           <p className="text-3xl">
-            My name is Marius,<br></br>IT-Developer and Drone Pilot
-            based in Norway. <br></br>
-            Currently looking for work.
+            I’m Marius,<br></br> a developer and drone pilot exploring software, automation, <br></br>and <span className="font-bold text-customcyan">compliant UAS operations</span>.<br></br><br></br>
+            I focus on understanding regulations, planning safe operations, assessing risk, and helping teams apply requirements in practice.
           </p>
           <div className="py-6 text-center md:text-center px-12"></div>
           <div className="flex flex-wrap justify-right z-10 md:justify-start py-2 md:w-1/2">

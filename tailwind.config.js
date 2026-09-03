@@ -17,7 +17,7 @@ module.exports = {
         customgreen: '#3FB950',
         customcyan: '#33B3AE',
       },
-      screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440pd' },
+      screens: { sm: '480px', md: '768px', lg: '976px', xl: '1440px' },
       animation: {
         bounce:
           'bounce 0.5s alternate cubic-bezier(0.95, 0.05, 0.795, 0.035) infinite',

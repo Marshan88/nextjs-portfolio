@@ -1,0 +1,44 @@
+---
+description: Personal Next.js/TypeScript portfolio guardrails — preserve structure, small diffs, no deps/git without approval
+alwaysApply: true
+---
+
+# Portfolio guardrails
+
+This is a personal Next.js (App Router) + TypeScript + Tailwind portfolio. Keep `app/`, `components/`, `data.ts`, and the existing visual design unless the user explicitly asks to change them.
+
+## Before editing
+
+State the plan in chat first: which files you will add/change/delete, and why. Wait for the user to proceed if the plan is more than a small, local tweak. Prefer the smallest change that solves the request. Do not refactor, restyle, or reorganize adjacent code.
+
+## TypeScript
+
+Keep TypeScript strict. Do not weaken types. Never use `any`, `as any`, `@ts-ignore`, `@ts-expect-error`, or non-null assertions (`!`) unless the user explicitly approves that escape.
+
+```tsx
+// ❌ BAD — type escape
+const items = data as any;
+
+// ✅ GOOD — typed, matches existing patterns
+import { projects } from "../data";
+```
+
+## Forbidden without explicit approval
+
+Do not do any of the following unless the user clearly asks:
+
+- Upgrade or add dependencies; run `npm audit fix`; edit `package.json` or lockfiles
+- Add paid services, API keys, analytics, databases, or environment variables
+- Commit, push, create branches, open PRs, or merge
+
+Existing `@vercel/analytics` / Speed Insights stay as-is; do not add more telemetry.
+
+## Verify changes
+
+After code edits, tell the user how to check them:
+
+- UI/layout: `npm run dev`, then open the affected page and exercise the change
+- Production/type safety: `npm run build`
+- Optional: `npm run lint`
+
+Do not start long-running servers unless asked. If you cannot verify in the browser, say so.

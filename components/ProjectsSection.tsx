@@ -30,6 +30,7 @@ export default function ProjectsSection() {
                       <Image
                         src={project.image}
                         alt="project image"
+                        loading={index === 0 ? 'eager' : 'lazy'}
                         width={1000}
                         height={1000}
                         className="rounded-xl shadow-xl hover:opacity-60"

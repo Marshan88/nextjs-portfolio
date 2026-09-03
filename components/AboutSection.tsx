@@ -55,18 +55,9 @@ const AboutSection = () => {
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row">
           <div className="text-left">
             <p className="text-4xl">
-              A dedicated technology enthusiast with strong interests in drones,
-              programming, automation, and AI. <br></br>
-              Focused on learning and adaptability, I explore how emerging
-              technologies can add value across professional environments and
-              shape the future of work.
-              <br></br>
-              <br></br>Currently pursuing a pioneering degree in Drone
-              Operations with a specialization in Specific Operations Risk
-              Assessment (SORA).<br></br>
-              <br></br> In addition, I have experience as a full‑stack developer
-              and am seeking opportunities to further develop my skills and
-              contribute to innovative projects.
+            I’m interested in practical technology, especially where software, automation, and AI can support better ways of working.<br></br>
+            <br></br>I am studying Drone Operations, focusing on regulatory requirements, operational planning, risk assessment—including Specific Operations Risk Assessment (SORA)—and compliant UAS operations.<br></br>
+<br></br>I also have a foundation in full-stack development and continue developing through hands-on projects. I am interested in opportunities that connect technology, operations, and responsible innovation.
             </p>
           </div>
         </div>
